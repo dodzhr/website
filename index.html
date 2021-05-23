@@ -246,7 +246,6 @@ justify-content: center; color: lavender;"> Who am I?</h1>
   <div class="jumbotron container formm" id="sendmessage">
     <h2 class=" text-success" style="text-align: center;">Send a Message?</h2>
     <form action="mail" method="POST">
-      {% csrf_token %}
       <div class="form-group">
         <label for="exampleInputEmail1">Email address</label>
         <input type="email" class="form-control" required name="email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
